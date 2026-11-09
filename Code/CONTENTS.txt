@@ -1,0 +1,18 @@
+WASTE-HEAT AMMONIA-WATER ABSORPTION CHILLER — PROJECT METHOD
+
+Contents
+- cycle.py: state-point and component-by-component project cycle solver
+- nh3_props.py, solution_props.py, equilibrium.py: property routines
+- cycle_study.py: state-point tables, component balances, and project plots
+- user_inputs.py: editable inputs for the project operating point and sensitivity plots
+- run_cycle.py: seasonal HVAC, condenser, and operating scenario calculations
+- study.py: configured temperature/concentration studies and the optional --sensitivity mode
+- air_handler.py, condenser.py: air-handling and condenser calculations
+- check_balances.py, tests/: engineering and software verification, including thermodynamic property checks
+- results/: main summary tables; plots/ contains generated figures; details/ retains supporting seasonal, equipment, and sensitivity tables
+- Diagrams/: static absorption-cycle and air-handler reference diagrams
+- README.md, STUDY_GUIDE.md, PROVENANCE.md: setup, methodology, assumptions and provenance
+- CHECKSUMS.txt: SHA-256 file integrity manifest
+
+No PowerPoint files are included. Run from this folder using:
+    python main.py

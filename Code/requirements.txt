@@ -1,0 +1,6 @@
+numpy
+scipy
+pandas
+matplotlib
+CoolProp      # optional but recommended: exact P_sat,H2O (an Antoine/Bridgeman fallback is built in)
+pytest        # used by main.py for property checks and by the full test suite
